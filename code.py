@@ -1,7 +1,5 @@
 import board
-import digitalio
 import neopixel
-import time
 
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 10, auto_write=False)
 pixels[0] = (0, 0, 255)
